@@ -17,13 +17,13 @@ const Header = () => {
     //When you scroll up the header turns black
     <header
       className={`${
-        bg ? "bg-black h-20" : "h-24"
+        bg ? "bg-indigo-300 h-20" : "h-24"
       } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/*Logo*/}
         <a href="#">
-          <img src={BK} alt="" className="w-24 " />
+          <img src={BK} alt="" className="w-24" />
         </a>
 
         {/* Nav*/}

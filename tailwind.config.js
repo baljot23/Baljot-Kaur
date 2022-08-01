@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Playfair Display",
-      body: "Work Sans",
+      primary: "Blinker, sans-serif",
+      body: "Blinker, sans-serif",
     },
     container: {
       padding: {
@@ -19,6 +19,19 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
+      content: {
+        about: 'url("/src/images/about.svg")',
+      },
+      colors: {
+        primary: "#050402",
+        secondary: "#1C1D24",
+        tertiary: "#131419",
+        accent: {
+          DEFAULT: "#a5b4fc",
+          hover: "#925a2b",
+        },
+        paragraph: "#878e99",
+      },
       animation: {
         text: "text 5s ease infinite",
       },
@@ -38,10 +51,6 @@ module.exports = {
             "background-position-x": "390px",
           },
         },
-      },
-      backgroundImage: {
-        "background-hover":
-          "url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==)",
       },
     },
   },
