@@ -1,6 +1,6 @@
 import React from "react";
 
-import { brands } from "./data/Brands";
+import { brands } from "./data/brands";
 
 const Brands = () => {
   return (

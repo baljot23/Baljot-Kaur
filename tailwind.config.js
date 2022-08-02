@@ -20,7 +20,11 @@ module.exports = {
     },
     extend: {
       content: {
-        about: 'url("/src/images/about.svg")',
+        about: 'url("/src/images/Outlines/about.svg")',
+        contact: 'url("/src/images/Outlines/contact.svg")',
+        portfolio: 'url("/src/images/Outlines/portfolio.svg")',
+        testimonials: 'url("/src/images/Outlines/testimonials.svg")',
+        services: 'url("/src/images/Outlines/services.svg")',
       },
       colors: {
         primary: "#050402",

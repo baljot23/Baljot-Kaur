@@ -3,7 +3,7 @@ import web from "../images/web.gif";
 
 const About = () => {
   return (
-    <section className="section bg-secondary id='about'">
+    <section className="section bg-secondary " id="about">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
@@ -24,7 +24,7 @@ const About = () => {
                 Backend experience.
               </p>
             </div>
-            <button class="mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300">
+            <button className="mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300">
               Contact Me
             </button>
           </div>
