@@ -8,20 +8,25 @@ import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import BackToTopButtom from "./components/BackToTopButton";
 
 const App = () => {
   return (
     <div className="bg-white relative">
-      <Header />
-      <Hero />
-      <Brands />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Services />
-      <Testimonials />
-      <Contact />
-      <div style={{ height: "2000px" }}></div>
+      <div style={{ height: "2000px" }}>
+        <Header />
+        <Hero />
+        <Brands />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Services />
+        <Testimonials />
+        <Contact />
+        <Footer />
+        <BackToTopButtom />
+      </div>
     </div>
   );
 };

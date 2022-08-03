@@ -1,16 +1,17 @@
-import { FiInstagram, FiGithub, FiDribbble } from "react-icons/fi";
+import { FiInstagram, FiGithub, FiDribbble, FiDownload } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const social = [
   {
-    icon: <FiInstagram />,
-    href: "",
+    icon: <FaLinkedinIn />,
+    href: "https://www.linkedin.com/in/baljotkaursingh/",
   },
   {
     icon: <FiGithub />,
-    href: "",
+    href: "https://github.com/baljot23",
   },
   {
     icon: <FiDribbble />,
-    href: "",
+    href: "https://dribbble.com/baljotkaur",
   },
 ];

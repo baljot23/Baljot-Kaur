@@ -1,7 +1,11 @@
 import React from "react";
-import Image from "../images/Image.png";
+import Contact from "./Contact";
 
 const Hero = () => {
+  const handleContact = () => {
+    window.location.replace(<Contact />);
+  };
+
   return (
     <section
       id="home"
@@ -21,7 +25,13 @@ const Hero = () => {
             >
               I Build & Design Websites.
             </h1>
-            <button className="mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300">
+
+            <button
+              onClick={() => {
+                handleContact();
+              }}
+              className="mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300"
+            >
               Work With Me
             </button>
 

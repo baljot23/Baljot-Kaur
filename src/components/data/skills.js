@@ -1,31 +1,43 @@
-import SkillImg1 from "../../images/Skills/css3.png";
-import SkillImg2 from "../../images/Skills/figma.png";
-import SkillImg3 from "../../images/Skills/git.png";
-import SkillImg4 from "../../images/Skills/html5.png";
-import SkillImg5 from "../../images/Skills/js.png";
-import SkillImg6 from "../../images/Skills/nodejs.png";
-import SkillImg7 from "../../images/Skills/reactjs.png";
+import css3 from "../../images/Skills/css3.png";
+import figma from "../../images/Skills/figma.png";
+import git from "../../images/Skills/git.png";
+import html5 from "../../images/Skills/html5.png";
+import js from "../../images/Skills/js.png";
+import nodejs from "../../images/Skills/nodejs.png";
+import reactjs from "../../images/Skills/reactjs.png";
+import wordpress from "../../images/Skills/wordpress.png";
+import firbase from "../../images/Skills/firebase.png";
+import redux from "../../images/Skills/redux.png";
 
 export const skills = [
   {
-    image: SkillImg1,
+    image: css3,
   },
   {
-    image: SkillImg2,
+    image: figma,
   },
   {
-    image: SkillImg3,
+    image: git,
   },
   {
-    image: SkillImg4,
+    image: html5,
   },
   {
-    image: SkillImg5,
+    image: js,
   },
   {
-    image: SkillImg6,
+    image: nodejs,
   },
   {
-    image: SkillImg7,
+    image: reactjs,
+  },
+  {
+    image: wordpress,
+  },
+  {
+    image: firbase,
+  },
+  {
+    image: redux,
   },
 ];

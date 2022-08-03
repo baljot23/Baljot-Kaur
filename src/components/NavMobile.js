@@ -75,7 +75,10 @@ const NavMobile = () => {
                 offset={-70}
                 className="text-xl cursor-pointer capitalize group text-white transition-all duration-300 ease-in-out"
               >
-                <span className="bg-left-bottom bg-gradient-to-r from-violet-600 to-indigo-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                <span
+                  onClick={() => setIsOpen(false)}
+                  className="bg-left-bottom bg-gradient-to-r from-violet-600 to-indigo-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out"
+                >
                   {item.name}
                 </span>
               </Link>

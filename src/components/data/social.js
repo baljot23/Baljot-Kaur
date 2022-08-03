@@ -1,20 +1,31 @@
-import { FiYoutube, FiInstagram, FiGithub, FiDribbble } from "react-icons/fi";
+import {
+  FiYoutube,
+  FiInstagram,
+  FiGithub,
+  FiDribbble,
+  FiLinkedin,
+} from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const social = [
+  // {
+  //   icon: <FiYoutube />,
+  //   href: "",
+  // },
+  // {
+  //   icon: <FiInstagram />,
+  //   href: "",
+  // },
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
-    icon: <FiInstagram />,
-    href: "",
+    icon: <FaLinkedinIn />,
+    href: "https://www.linkedin.com/in/baljotkaursingh/",
   },
   {
     icon: <FiGithub />,
-    href: "",
+    href: "https://github.com/baljot23",
   },
   {
     icon: <FiDribbble />,
-    href: "",
+    href: "https://dribbble.com/baljotkaur",
   },
 ];

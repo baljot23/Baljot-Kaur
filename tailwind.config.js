@@ -32,7 +32,7 @@ module.exports = {
         tertiary: "#131419",
         accent: {
           DEFAULT: "#a5b4fc",
-          hover: "#925a2b",
+          hover: "#a5b4fc",
         },
         paragraph: "#878e99",
       },
