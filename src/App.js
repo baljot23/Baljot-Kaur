@@ -17,9 +17,9 @@ const App = () => {
       <div style={{ height: "2000px" }}>
         <Header />
         <Hero />
-        <Brands />
-        <About />
         <Skills />
+        {/* <Brands /> */}
+        <About />
         <Portfolio />
         <Services />
         {/* <Testimonials /> */}

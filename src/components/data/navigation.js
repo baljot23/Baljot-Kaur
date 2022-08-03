@@ -15,10 +15,10 @@ export const navigation = [
     name: "services",
     href: "services",
   },
-  {
-    name: "testimonials",
-    href: "testimonials",
-  },
+  // {
+  //   name: "testimonials",
+  //   href: "testimonials",
+  // },
   {
     name: "contact",
     href: "contact",

@@ -4,7 +4,7 @@ import SkillsSlider from "./SkillsSlider";
 
 const Skills = () => {
   return (
-    <section className="bg-tertiary py-12">
+    <section className="bg-tertiary py-3">
       <div className="container mx-auto ">
         <SkillsSlider />
       </div>

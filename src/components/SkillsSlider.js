@@ -26,7 +26,7 @@ const SkillsSlider = () => {
         effect={"coverflow"}
         coverflowEffect={{
           rotate: 20,
-          stretch: 10,
+          stretch: 0,
           depth: 50,
           modifier: 1,
           slideShadows: false,
@@ -38,7 +38,7 @@ const SkillsSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div className="flex flex-col items-center justify-center lg:flex-row gap-1 lg:gap-2 ">
-                <div className="w-40 h-40 lg:w-[328px] lg:h-[328px]">
+                <div className="w-42 h-36 lg:w-[330px] lg:h-[320px]">
                   <img className="rounded-2xl bg-black " src={image} alt="" />
                 </div>
               </div>
