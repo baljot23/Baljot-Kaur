@@ -23,7 +23,11 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/*Logo*/}
         <a href="#">
-          <img src={BK} alt="" className="w-24" />
+          <img
+            src={BK}
+            alt=""
+            className="w-24 hover:scale-[1.3] ease-out duration-500"
+          />
         </a>
 
         {/* Nav*/}

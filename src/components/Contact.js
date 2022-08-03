@@ -11,8 +11,8 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            I’m always open to discussing product design work or partnership
+            opportunities.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
               className="textarea"
               placeholder="Your Message"
             ></textarea>
-            <button className="section mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300">
+            <button className="section mt-10 px-6 py-2 font-sans font-semibold text-white transition duration-300 ease-in-out delay-300 skew-x-6 bg-indigo-400 border-b-4 border-indigo-900 rounded shadow-lg hover:transform-none hover:border-indigo-300 ">
               Send Message
             </button>
           </form>

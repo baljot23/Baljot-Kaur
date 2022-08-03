@@ -6,11 +6,11 @@ import cv from "../images/cv.pdf";
 const Socials = () => {
   return (
     <div>
-      <ul className="flex space-x-6">
+      <ul className="flex space-x-6 ">
         {social.map((item, index) => {
           return (
             <li
-              className="flex justify-center items-center text-indigo-400"
+              className="flex justify-center items-center text-indigo-400 hover:scale-[2] ease-out duration-500"
               key={index}
             >
               <a className="text-base" href={item.href}>
@@ -20,7 +20,7 @@ const Socials = () => {
           );
         })}
         <a href={cv} download>
-          <FiDownload className="flex justify-center items-center text-indigo-400" />
+          <FiDownload className="flex justify-center items-center text-indigo-400 hover:scale-[2] ease-out duration-500" />
         </a>
       </ul>
     </div>
