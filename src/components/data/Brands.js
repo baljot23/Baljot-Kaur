@@ -4,7 +4,7 @@ import dribble from "../../images/Brands/dribble.png";
 import linkedin from "../../images/Brands/linkedin.png";
 import github from "../../images/Brands/github.png";
 
-export const brands = [
+export default brands = [
   {
     img: dribble,
     href: "https://dribbble.com/baljotkaur",
