@@ -29,7 +29,7 @@ const NavMobile = () => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.1,
+        delay: 0.5,
       },
     },
   };
@@ -48,7 +48,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial="hidden"
         animate={isOpen ? "visible" : "hidden"}
-        className="w-4 h-4 rounded-full bg-indigo-300 fixed top-0 right-0"
+        className="w-7 h-12 rounded-full bg-indigo-300 fixed top-0 right-0"
       ></motion.div>
 
       <motion.ul
@@ -67,7 +67,7 @@ const NavMobile = () => {
         </div>
         {navigation.map((item, index) => {
           return (
-            <li key={index} className="mb-8 ">
+            <li key={index} className="mb-8">
               <Link
                 to={item.href}
                 smooth={true}
@@ -77,7 +77,7 @@ const NavMobile = () => {
               >
                 <span
                   onClick={() => setIsOpen(false)}
-                  className="bg-left-bottom bg-gradient-to-r from-violet-600 to-indigo-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out"
+                  className="bg-left-bottom bg-gradient-to-r from-violet-600 to-indigo-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-500 ease-out"
                 >
                   {item.name}
                 </span>

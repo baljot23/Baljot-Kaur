@@ -1,7 +1,7 @@
 import React from "react";
 import { social } from "./data/socials";
 import { FiDownload } from "react-icons/fi";
-import cv from "../images/cv.pdf";
+import BaljotResume from "../images/BaljotResume.pdf";
 
 const Socials = () => {
   return (
@@ -19,7 +19,7 @@ const Socials = () => {
             </li>
           );
         })}
-        <a href={cv} download>
+        <a href={BaljotResume} download>
           <FiDownload className="flex justify-center items-center text-indigo-400 hover:scale-[2] ease-out duration-500" />
         </a>
       </ul>

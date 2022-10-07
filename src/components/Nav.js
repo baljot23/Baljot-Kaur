@@ -9,13 +9,12 @@ const Nav = () => {
         {navigation.map((item, index) => {
           return (
             <li
-              className="text-white hover:text-indigo-400 cursor-pointer "
+              className="text-white hover:text-indigo-500 cursor-pointer"
               key={index}
             >
               <Link
                 to={item.href}
                 activeClass="active"
-                spy={true}
                 smooth={true}
                 duration={500}
                 offset={-70}

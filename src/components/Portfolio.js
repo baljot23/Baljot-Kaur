@@ -14,7 +14,11 @@ const Portfolio = () => {
             more? Email me.
           </p>
         </div>
-        <Projects />
+        <div className="text-center text-4xl text-white">
+          {" "}
+          Updating Will Upload Projects Soon!
+        </div>
+        {/* <Projects /> */}
       </div>
     </section>
   );
